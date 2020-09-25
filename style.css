@@ -1,0 +1,74 @@
+body {
+    font-family:  "Abril Fatface", cursive;
+  }
+  
+  .sidebar {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: rgba(19, 18, 18, 0.315);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    display: block;
+    font-style: bold;
+  }
+  
+  .sidebar a:hover {
+    color: blanchedalmond;
+  }
+  
+  .main {
+    margin-left: 140px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  #me{
+    
+    display: flex;
+     
+}
+
+ #me img {
+     border: 2px solid rgb(12, 12, 12);    
+    border-radius: 200px;
+    width: 33%;
+    height: 33%;
+    border : 2px solid, rgb(27, 26, 26);
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+
+ #me h1 {
+     font-family:  'Abril Fatface', cursive;
+     float: right;
+     font-size: 85px;   
+     margin-top: 350px;
+}
+
+#me h2 {
+    font-family:  'Abril Fatface', cursive;
+    margin-top: 400px;
+    font-size: 20px ;
+    letter-spacing: 3.5px;
+    color: rgb(12, 12, 12);
+    
+    
+}  
+
